@@ -25,6 +25,11 @@ export default async function DashboardLayout({
               DocExpiry
             </Link>
             <div className="flex gap-4 items-center">
+              <Link href="/dashboard/mis-documentos">
+                <Button variant="ghost" size="sm">
+                  Mis Documentos
+                </Button>
+              </Link>
               <Link href="/dashboard/notifications">
                 <Button variant="ghost" size="sm">
                   Notifications
